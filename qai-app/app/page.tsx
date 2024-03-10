@@ -1,5 +1,5 @@
-import { Evals } from '../components/component/evals'
+import { Evalsai } from '../components/component/evalsai'
 
 export default function Home() {
-  return <Evals />;
+  return <Evalsai />;
 }
