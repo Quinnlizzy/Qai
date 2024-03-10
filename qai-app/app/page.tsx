@@ -1,5 +1,5 @@
-import { Evalsai } from '../components/evalsai'
+import { Qai } from '../components/component/qai'
 
 export default function Home() {
-  return <Evalsai />;
+  return <Qai />;
 }
