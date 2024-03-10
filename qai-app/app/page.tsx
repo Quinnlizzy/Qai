@@ -1,4 +1,4 @@
-import { Evalsai } from '../components/component/evalsai'
+import { Evalsai } from '../components/evalsai'
 
 export default function Home() {
   return <Evalsai />;
