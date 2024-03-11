@@ -9,7 +9,7 @@ export default function Chat() {
 
   useEffect(() => {
     if (endRef.current) {
-      endRef.current.scrollIntoView({ behavior: 'smooth' });
+      (endRef.current as HTMLElement).scrollIntoView({ behavior: 'smooth' });
     }
   }, [messages]);
 
