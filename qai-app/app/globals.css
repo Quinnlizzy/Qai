@@ -29,3 +29,26 @@ body {
     text-wrap: balance;
   }
 }
+
+/* styles.css */
+.message {
+  position: relative;
+}
+
+.message::before,
+.message::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  box-shadow: 0 0 10px cyan;
+}
+
+.message::before {
+  left: 0;
+}
+
+.message::after {
+  right: 0;
+}
